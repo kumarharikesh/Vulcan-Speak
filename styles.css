@@ -54,8 +54,9 @@ body {
 main {
   margin: 1rem;
 }
+main > p,
 main > h2 {
-  text-align: center;
+  text-align: left;
   padding: 40px;
 }
 #txt-input,

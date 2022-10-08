@@ -11,6 +11,7 @@ a {
 
 :root {
   --primary-color: #7fb73a;
+  --grey:#c2dba19d;
 }
 
 body {
@@ -77,7 +78,6 @@ main > h2 {
     padding-top:0px;
   }
 }
-
 #txt-input,
 #output {
   margin: auto;
@@ -90,22 +90,37 @@ main > h2 {
   border: 1px solid black;
   border-radius: 0.3rem;
   opacity: 0.7;
-  background-color: rgb(208, 200, 200);
+  background-color: rgba(211, 211, 211, 0.473);
 }
 #output{
   margin-bottom:30px;
+  background-color: rgb(167, 212, 207);
+}
+
+#button-container{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+#button-container > div {
+    margin-right: 30px;
+    margin-left: 30px;
 }
 button {
-  display: block;
   margin: 1rem auto;
   padding: 0.5rem;
   font-size: 1rem;
+  font-weight: 600;
   font-family: "Caveat", cursive;
-  text-transform: uppercase;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
+  border: 1px solid black;
   background-color: var(--grey);
-  color: rgb(4, 181, 51);
+  color: rgb(71, 170, 140);
   cursor: pointer;
+}
+#clear{
+    color: rgb(121, 56, 56);
 }
 
 /* Container */

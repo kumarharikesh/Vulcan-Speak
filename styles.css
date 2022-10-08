@@ -63,7 +63,7 @@ main > h2 {
   padding: 10px;
 }
 /* Media Query for smaller screens */
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   main > p,
   main > h2 {
     text-align: left;

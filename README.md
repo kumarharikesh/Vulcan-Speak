@@ -5,18 +5,22 @@ Convert from English to Vulcan. The Vulcan language was spoken by the Vulcans of
 
 <br/>preview
 <br/>
+![image](https://user-images.githubusercontent.com/43793294/194696670-5928dfe4-b5d1-4b7f-bd2d-22d8406c3cd8.png)
+
+<br/>
 <br/>
 
 # How to Use:
- - Enter the bill amount you have to pay & click on **Next**
- - Enter the cash amount you have & click on **Check**
- - Output will be shown below the check button
+ - In the output box, enter the sentence or word you want to translate.
+ - And click on **TRANSLATE INTO VULCAN**
+ - Output will be shown below in the output box.
  
 # Programming Language:
 
  - html
  - css 
  - javascript 
+ - Fun Translations API
 
 # Project Link
 

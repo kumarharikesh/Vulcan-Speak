@@ -55,8 +55,9 @@ main {
   margin: 1rem;
 }
 main > p{
-  margin-bottom: 20px
+  margin-bottom: 10px
 }
+main > p,
 main > h2 {
   text-align: left;
   padding: 10px;

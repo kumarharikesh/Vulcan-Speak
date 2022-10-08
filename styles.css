@@ -57,10 +57,10 @@ main {
 main > p,
 main > h2 {
   text-align: left;
-  padding: 60px;
+  padding: 40px;
 }
 /* Media Query for smaller screens */
-@media (min-width: 400px) {
+@media (min-width: 200px) {
   main > p,
   main > h2 {
     text-align: left;

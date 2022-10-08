@@ -54,6 +54,7 @@ body {
 main {
   margin: 1rem;
 }
+main,
 main > p{
   margin-bottom: 20px
 }
@@ -64,10 +65,12 @@ main > h2 {
 }
 /* Media Query for smaller screens */
 @media (min-width: 600px) {
-  main > p,
   main > h2 {
-    text-align: left;
-    padding: 40px;
+    padding: 60px;
+  }
+  main > p {
+    padding: 60px;
+    padding-bottom:20px;
   }
 }
 

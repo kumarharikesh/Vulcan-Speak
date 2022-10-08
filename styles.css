@@ -54,17 +54,20 @@ body {
 main {
   margin: 1rem;
 }
+main > p{
+  margin-bottom: 20px
+}
 main > p,
 main > h2 {
   text-align: left;
-  padding: 40px;
+  padding: 10px;
 }
 /* Media Query for smaller screens */
-@media (min-width: 200px) {
+@media (max-width: 600px) {
   main > p,
   main > h2 {
     text-align: left;
-    padding: 10px;
+    padding: 40px;
   }
 }
 

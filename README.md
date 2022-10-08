@@ -11,7 +11,7 @@ Convert from English to Vulcan. The Vulcan language was spoken by the Vulcans of
 <br/>
 
 # How to Use:
- - In the output box, enter the sentence or word you want to translate.
+ - In the input box, enter the sentence or word you want to translate.
  - And click on **TRANSLATE INTO VULCAN**
  - Output will be shown below in the output box.
  

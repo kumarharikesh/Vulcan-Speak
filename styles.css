@@ -87,10 +87,11 @@ main > h2 {
   height: 20vh;
   font-size: 1.5rem;
   outline: none;
-  border: 1px solid black;
+  border: 1px solid rgb(112, 112, 112);
   border-radius: 0.3rem;
   opacity: 0.7;
   background-color: rgba(211, 211, 211, 0.473);
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 #output{
   margin-bottom:30px;
@@ -114,10 +115,11 @@ button {
   font-weight: 600;
   font-family: "Caveat", cursive;
   border-radius: 1rem;
-  border: 1px solid black;
+  border: 1px solid rgba(255, 251, 251, 0.685);
   background-color: var(--grey);
   color: rgb(71, 170, 140);
   cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 #clear{
     color: rgb(121, 56, 56);

@@ -57,8 +57,17 @@ main {
 main > p,
 main > h2 {
   text-align: left;
-  padding: 40px;
+  padding: 60px;
 }
+/* Media Query for smaller screens */
+@media (min-width: 480px) {
+  main > p,
+  main > h2 {
+    text-align: left;
+    padding: 40px;
+  }
+}
+
 #txt-input,
 #output {
   margin: auto;

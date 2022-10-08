@@ -2,11 +2,13 @@ const textInput = document.querySelector("#txt-input");
 const output = document.querySelector("#output");
 const form = document.querySelector("#form");
 
-let URL = "https://api.funtranslations.com/translate/yoda.json";
+let URL = "https://api.funtranslations.com/translate/vulcan.json";
 
 const getURL = (text) => `${URL}?text=${text}`;
 
-const errorHandler = (error) => alert(`Error occured: ${error}`);
+function errorHandler(error){
+  alert("Some error occured in the server.\nPlease try again after some time !\nSorry for the inconvenience. 🙂")
+}
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();

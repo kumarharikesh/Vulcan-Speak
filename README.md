@@ -24,7 +24,7 @@ Convert from English to Vulcan. The Vulcan language was spoken by the Vulcans of
 
 # Project Link
 
-https://yoda1-speaks.netlify.app/
+https://vulcan-speaks.netlify.app/
 
 <br/>
 <br/>

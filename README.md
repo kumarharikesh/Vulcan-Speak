@@ -5,14 +5,14 @@ Convert from English to Vulcan. The Vulcan language was spoken by the Vulcans of
 
 <br/>preview
 <br/>
-![image](https://user-images.githubusercontent.com/43793294/194696670-5928dfe4-b5d1-4b7f-bd2d-22d8406c3cd8.png)
+![image](https://user-images.githubusercontent.com/43793294/194715843-ce4042c3-c1d0-4356-b335-4a68d6f0b308.png)
 
 <br/>
 <br/>
 
 # How to Use:
  - In the input box, enter the sentence or word you want to translate.
- - And click on **TRANSLATE INTO VULCAN**
+ - And click on **TRANSLATE INTO VULCAN**.
  - Output will be shown below in the output box.
  
 # Programming Language:

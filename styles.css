@@ -64,9 +64,10 @@ main > h2 {
 /* Media Query for smaller screens */
 @media (min-width: 600px) {
   main > h2 {
-    padding: 60px;
+    padding-bottom:20px;
   }
   main > p {
+    padding: 60px;
     padding-bottom:20px;
   }
 }

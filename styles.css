@@ -21,17 +21,10 @@ body {
 /** navigation **/
 .navigation {
   background: -moz-linear-gradient(top, #7fb73a, skyblue);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#7fb73a),
-    to(rgb(157, 203, 221))
-  );
-
-  -moz-box-shadow: 1px 1px 3px #292929;
-  -webkit-box-shadow: 1px 1px 3px #292929;
-  box-shadow: 1px 1px 3px #292929;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7fb73a), to(rgb(157, 203, 221)));
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  -moz-box-shadow: 0 8px 16px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  -webkit-box-shadow: 0 8px 16px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%);
   color: #454545;
   text-shadow: 0 1px 0 white;
   padding: 1rem;
@@ -64,6 +57,7 @@ main > h2 {
   margin-top:50px;
   text-align: left;
   padding: 10px;
+  text-shadow: 0 1px 0 cyan;
 }
 /* Media Query for smaller screens */
 @media (min-width: 600px) {
@@ -216,6 +210,7 @@ img {
   padding: 2rem 1rem;
   text-align: center;
   color: white;
+  box-shadow: 0 8px 10px 10px rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .footer .link {
